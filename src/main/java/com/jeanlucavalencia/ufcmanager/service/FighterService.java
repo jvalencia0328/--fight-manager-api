@@ -4,6 +4,7 @@ import java.util.Optional;
 import com.jeanlucavalencia.ufcmanager.entity.Fighter;
 import com.jeanlucavalencia.ufcmanager.repository.FighterRepository;
 import  org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PostMapping;
 
 @Service
 public class FighterService {
@@ -51,6 +52,7 @@ public class FighterService {
             return fighterRepository.save(oldFighter);
 
         }
+
 
 
 
