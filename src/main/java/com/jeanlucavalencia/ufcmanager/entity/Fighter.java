@@ -20,11 +20,11 @@ public class Fighter {
     private int draws;
     private String weightClass;
 
-    public Fighter(){
+    public Fighter() {
 
     }
 
-    public Fighter(String name, String nickname, int wins, int losses, int draws, String weightClass){
+    public Fighter(String name, String nickname, int wins, int losses, int draws, String weightClass) {
         this.name = name;
         this.nickname = nickname;
         this.wins = wins;
@@ -34,54 +34,63 @@ public class Fighter {
     }
 
     //Getters:
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public String getNickname(){
+    public String getNickname() {
         return nickname;
     }
 
     public int getWins() {
+
         return wins;
     }
 
-    public int getLosses(){
+    public int getLosses() {
         return losses;
+
     }
 
-    public int getDraws(){
+    public int getDraws() {
         return draws;
+
     }
 
-    public String getWeightClass(){
+    public String getWeightClass() {
         return weightClass;
+
     }
 
     //Setters:
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
+
     }
 
-    public void setNickname(String nickname){
+    public void setNickname(String nickname) {
         this.nickname = nickname;
+
     }
 
-    public void setWins(int wins){
+    public void setWins(int wins) {
         this.wins = wins;
+
     }
 
-    public void setLosses(int losses){
+    public void setLosses(int losses) {
         this.losses = losses;
     }
 
-    public void setDraws(int draws){
+    public void setDraws(int draws) {
         this.draws = draws;
+
     }
 
-    public void setWeightClass(String weightClass){
+    public void setWeightClass(String weightClass) {
         this.weightClass = weightClass;
+
     }
 
 }
