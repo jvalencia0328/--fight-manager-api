@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fighters</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html">Back Home</a>
+      <h1>Fighters</h1>
+      <p>View and manage UFC fighters.</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Add a Fighter</h2>
+        <form id="fighter-form">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div>
+            <label for="nickname">Nickname:</label>
+            <input type="text" id="nickname" name="nickname" />
+          </div>
+
+          <div>
+            <label for="wins">Wins:</label>
+            <input type="number" id="wins" name="wins" min="0" required />
+          </div>
+
+          <div>
+            <label for="losses">Losses:</label>
+            <input type="number" id="losses" name="losses" min="0" required />
+          </div>
+
+          <div>
+            <label for="draws">Draws:</label>
+            <input type="number" id="draws" name="draws" min="0" required />
+          </div>
+
+          <div>
+            <label for="weightClass">Weight Class:</label>
+            <input type="text" id="weightClass" name="weightClass" required />
+          </div>
+
+          <button type="submit">Add Fighter</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>All Fighters</h2>
+        <div id="fighters-list">
+          <p>No fighters loaded yet.</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/fighters.js"></script>
+  </body>
+</html>
