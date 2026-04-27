@@ -2,34 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Octagon Hub</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <section>
-      <header>
-        <h1>Octagon Hub</h1>
-        <p>Welcome to the Octagon Hub!</p>
-        <p>
-          Octagon Hub helps you manage UFC fighters, events, and fights in one
-          place.
-        </p>
-      </header>
-    </section>
+    <header class="page-header">
+      <h1>Octagon Hub</h1>
+      <p>Your UFC viewer app for exploring fighters, events, and fights.</p>
+    </header>
 
-    <section>
-      <h2>Features</h2>
-      <div>
-        <ul>
-          <li><a href="fighters.html">Manage fighters</a></li>
-          <li><a href="fights.html">Manage fights</a></li>
-          <li><a href="events.html">Manage events</a></li>
+    <main class="page-content">
+      <section class="card">
+        <h2>Welcome</h2>
+        <p>
+          Browse UFC fighters, upcoming events, and fight matchups in one place.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Explore</h2>
+        <div class="nav-links">
+          <a href="fighters.html" class="nav-card">View Fighters</a>
+          <a href="events.html" class="nav-card">View Events</a>
+          <a href="fights.html" class="nav-card">View Fights</a>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Features</h2>
+        <ul class="feature-list">
+          <li>Browse fighter profiles and records</li>
+          <li>View UFC events and event details</li>
+          <li>See fight matchups and outcomes</li>
         </ul>
-      </div>
-    </section>
+      </section>
+    </main>
   </body>
 </html>

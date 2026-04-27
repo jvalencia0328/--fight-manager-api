@@ -13,7 +13,7 @@ public class FighterController {
     public FighterController(FighterService fighterService){
         this.fighterService = fighterService;
     }
-
+    
     @GetMapping("/fighters")
     public List<Fighter> getAllFighters(){
         return fighterService.getAllFighters();
